@@ -29,7 +29,7 @@ vim.opt.updatetime = 50
 
 -- color col after 80 lines. if your code is longer, you
 -- should probably make it into 2 lines
-vim.opt.colorcolumn = "80"
+-- vim.opt.colorcolumn = "80"
 
 -- use Space as leader key
 vim.g.mapleader = " "
@@ -37,6 +37,4 @@ vim.g.mapleader = " "
 -- change a few characters.
 -- make spaces a dot, for eg
 vim.opt.list = true
-
-
 
