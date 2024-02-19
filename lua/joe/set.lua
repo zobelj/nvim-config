@@ -37,4 +37,17 @@ vim.g.mapleader = " "
 -- change a few characters.
 -- make spaces a dot, for eg
 vim.opt.list = true
+vim.opt.listchars = {
+    tab = '→ ',
+    space = '·',
+    trail = '·',
+    extends = '…',
+    precedes = '…',
+    nbsp = '␣',
+}
 
+-- hide the default mode indicator
+vim.opt.showmode = false
+
+-- color stuff
+vim.opt.termguicolors = true
