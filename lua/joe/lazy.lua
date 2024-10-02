@@ -11,7 +11,13 @@ local plugins = {
 		'nvim-lualine/lualine.nvim',
 		dependencies = { 'nvim-tree/nvim-web-devicons' }
 	},
-	{ 'navarasu/onedark.nvim' },
 	{ 'Darazaki/indent-o-matic' },
+	{ 'nvim-treesitter/nvim-treesitter' },
+	{ 'startup-nvim/startup.nvim' },
+
+	-- themes
+	{ 'navarasu/onedark.nvim' },
+	{ 'catppuccin/nvim' },
+	{ 'lewis6991/gitsigns.nvim' },
 }
 require("lazy").setup(plugins)
