@@ -1,7 +1,9 @@
-local scheme = 'onedark'
+local scheme = 'catppuccin-mocha'
 
 local status, _ = pcall(vim.cmd, 'colorscheme ' .. scheme)
 if not status then
-	printf('colorscheme %s not found', scheme)
+	--  use default colorscheme instead
+	vim.cmd('colorscheme default')	
+	printf('colorscheme %s not found. using default', scheme)
 	return
 end

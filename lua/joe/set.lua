@@ -51,3 +51,6 @@ vim.opt.showmode = false
 
 -- color stuff
 vim.opt.termguicolors = true
+
+-- hide the command line unless its being used
+vim.opt.cmdheight = 0
