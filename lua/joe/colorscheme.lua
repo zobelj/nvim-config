@@ -1,4 +1,4 @@
-local scheme = 'catppuccin-mocha'
+local scheme = 'tokyonight-night'
 
 local status, _ = pcall(vim.cmd, 'colorscheme ' .. scheme)
 if not status then

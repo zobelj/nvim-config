@@ -19,5 +19,11 @@ local plugins = {
 	{ 'navarasu/onedark.nvim' },
 	{ 'catppuccin/nvim' },
 	{ 'lewis6991/gitsigns.nvim' },
+	{
+		"folke/tokyonight.nvim",
+		lazy = false,
+		priority = 1000,
+		opts = {},
+	}
 }
 require("lazy").setup(plugins)
